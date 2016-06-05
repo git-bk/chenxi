@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<toolbox>
+	<!-- 这 里可以设置一些静态的数据 -->
+    <data key="id" value="999"></data>
+     
+    <!-- 这里可以设置一些动态的数据，因为是由后台动态传递过来的 -->
+    <toolbox scope="application">
+        <tool key="test" class="com.driverdata.chenxi.util.Test"></tool>
+    </toolbox>
+
+</toolbox>

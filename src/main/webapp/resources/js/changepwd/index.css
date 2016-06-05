@@ -1,0 +1,27 @@
+.findPwd{
+	font-size:16px;
+	font-weight:700;
+	text-align:center;
+	margin:20px 0;
+	padding:10px;
+	border-bottom:1px solid #ccc;
+}
+
+.validCode{
+	width:110px;
+	height:40px;
+	line-height:40px;
+	overflow:hidden; 
+	background:#f6f6f6;
+	text-align:center;
+	border-radius:5px;
+	border:1px solid #ccc;
+	/* color:white; */
+	font-weight:600;
+	margin: 10px 20px;
+	cursor:pointer;
+}
+
+input{
+	height:34px;
+}

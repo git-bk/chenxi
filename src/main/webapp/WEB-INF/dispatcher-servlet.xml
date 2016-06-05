@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:context="http://www.springframework.org/schema/context"  
+    xmlns:mvc="http://www.springframework.org/schema/mvc"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+            http://www.springframework.org/schema/beans/spring-beans.xsd  
+            http://www.springframework.org/schema/mvc  
+            http://www.springframework.org/schema/mvc/spring-mvc.xsd  
+            http://www.springframework.org/schema/context  
+            http://www.springframework.org/schema/context/spring-context.xsd"  
+    default-lazy-init="true">  
+    
+      
+    <mvc:resources mapping="/resources/**" location="/resources/" />
+    <!-- 添加注解驱动 -->
+    <mvc:annotation-driven />
+    
+    	
+    <!-- 默认扫描的包路径 -->  
+    <context:component-scan base-package="com.driverdata.chenxi.web" />
+      
+    
+    <!-- 配置velocity引擎 -->  
+    <bean id="velocityConfigurer"  
+          class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">  
+        <property name="resourceLoaderPath" value="/WEB-INF/templates/" /><!-- 模板存放的路径 --> 
+        <property name="velocityProperties">    
+	        <props>    
+	            <prop key="input.encoding">UTF-8</prop>    
+	            <prop key="output.encoding">UTF-8</prop>      
+	         </props>  
+         </property>
+    </bean>  
+  
+    <!-- 配置视图的显示 -->  
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.velocity.VelocityLayoutViewResolver">  
+        <property name="suffix" value=".vm" /><!-- 视图文件的后缀名 -->  
+        <property name="layoutUrl" value="layout/default.vm"/><!--指定layout文件--> 
+        <property name="contentType" value="text/html;charset=UTF-8"/> 
+        <property name="toolboxConfigLocation" value="/WEB-INF/toolbox.xml" />
+        <property name="exposeRequestAttributes" value="true" /><!--是否开放request属性-->  
+        <property name="requestContextAttribute" value="rc"/><!--request属性引用名称-->   
+    </bean>  
+</beans>  

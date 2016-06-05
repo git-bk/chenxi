@@ -1,0 +1,6 @@
+#set($header=true)
+#set($footer=true)
+
+<P>  The time on the server is $!serverTime. </P>
+
+<P>$proList.get(0).name</P>

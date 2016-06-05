@@ -1,0 +1,30 @@
+
+<p>上传图片</p>
+<form name="myform1" action="/chance/image/upload.json?type=1" method="post"
+       enctype="multipart/form-data">
+       Image:<br>
+       <input type="file" name="myImage"><br>
+       <br>
+       <input type="submit" name="submit" value="Commit">
+</form>
+
+<p>按坐标长宽切图</p>
+<form name="myform2" action="/chance/image/cut.json?type=1&x=0&y=0&width=200&height=300&imageId=3544" method="post"
+       enctype="multipart/form-data">
+       <br>
+       <input type="submit" name="submit" value="Commit">
+</form>
+
+<p>缩放</p>
+<form name="myform3" action="/chance/image/zoom.json?type=1&width=200&height=300&imageId=3544" method="post"
+       enctype="multipart/form-data">
+       <br>
+       <input type="submit" name="submit" value="Commit">
+</form>
+
+<p>按比例切图后缩放</p>
+<form name="myform4" action="/chance/image/cutZoom.json?type=1&width=400&height=300&imageId=3544" method="post"
+       enctype="multipart/form-data">
+       <br>
+       <input type="submit" name="submit" value="Commit">
+</form>

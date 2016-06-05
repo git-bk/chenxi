@@ -1,0 +1,21 @@
+#set($header=true)
+#set($footer=true)
+#set($page="login")
+<div class="loginbgcss">
+	<!--<form id='loginForm' action="/chenxi/j_spring_security_check" method='POST' class="loginForm">-->
+	<form id='loginForm' action="/chance/loginProcess" method='POST' class="loginForm">
+	    <div>
+	    	<div>登录名：</div>
+	    	<div><input type='text' name='j_username' class="required inputText" value='' placeholder="请在此处输入您的用户名/手机号"/></div>
+	    	<div>登录密码：</div>
+	    	<div><input type='password' name='j_password' class="required inputText" minlength="6" placeholder="请在此处输入您的密码"/></div>
+			<div class="login_error hide" style="color:#f56822;">账号名或密码错误</div>
+		</div>
+	    <div>
+	    	<div><button type="submit" name="submit" class="loginButton">登录</button></div>
+	    	<div class="register">注册</div>
+	    	<div class="findPassword">忘记密码</div>
+	    </div>
+	</form>
+</div>
+

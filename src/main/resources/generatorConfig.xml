@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<!DOCTYPE generatorConfiguration    
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"    
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">    
+<generatorConfiguration>    
+<!-- 运行方法：项目 目录下：mvn mybatis-generator:generate-->
+    <!-- <classPathEntry  location="C:/Users/Administrator/.m2/repository/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar"/>    -->
+    <classPathEntry  location="/Users/apple/.m2/repository/mysql/mysql-connector-java/5.1.30/mysql-connector-java-5.1.30.jar"/>
+    <context id="generate"  targetRuntime="MyBatis3">
+    	<property name="suppressAllComments" value="true" />
+		<property name="useActualColumnNames" value="false" />
+		<!-- 配置插件 -->
+    	<plugin type="com.driverdata.chenxi.dal.plugin.GenMapperPlugin" />
+    	<!-- 配置数据库连接 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://datadriver.mysql.rds.aliyuncs.com:3306/db_chance_dev" userId="db_chance_dev" password="db_chance_dev">    
+        </jdbcConnection>    
+        <javaTypeResolver>    
+            <property name="forceBigDecimals" value="false"/>    
+        </javaTypeResolver>    
+        <!-- 配置model生成位置 -->
+        <javaModelGenerator targetPackage="com.driverdata.chenxi.dal.model" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>    
+            <property name="trimStrings" value="true"/>    
+        </javaModelGenerator>    
+        <!-- 配置sqlmap生成位置 -->
+        <sqlMapGenerator targetPackage="sqlmap" targetProject="src/main/resources">    
+            <property name="enableSubPackages" value="true"/>    
+        </sqlMapGenerator>    
+        <!-- 配置mapper接口生成位置 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.driverdata.chenxi.dal.mapper" targetProject="src/main/java">
+            <property name="enableSubPackages" value="true"/>    
+        </javaClientGenerator>
+
+        <table tableName="file" domainObjectName="FileDo"  enableUpdateByExample="false" enableDeleteByExample="false">
+        </table>
+        <table tableName="image" domainObjectName="ImageDo"  enableUpdateByExample="false" enableDeleteByExample="false">
+        </table>
+        <table tableName="permission" domainObjectName="PermissionDo"  enableUpdateByExample="false" enableDeleteByExample="false">
+        </table>
+        <table tableName="role" domainObjectName="RoleDo"  enableUpdateByExample="false" enableDeleteByExample="false">
+        </table>
+        <table tableName="user" domainObjectName="UserDo"  enableUpdateByExample="false" enableDeleteByExample="false">
+        </table>
+        <table tableName="user_role" domainObjectName="UserRoleDo"  enableUpdateByExample="false" enableDeleteByExample="false">
+        </table>
+        <table tableName="validate_code" domainObjectName="ValidateCodeDo"  enableUpdateByExample="false" enableDeleteByExample="false">
+        </table>
+        <table tableName="dictionary" domainObjectName="DictionaryDo"  enableUpdateByExample="false" enableDeleteByExample="false">
+        </table>
+       
+        <table tableName="entity" domainObjectName="EntityDo"  enableUpdateByExample="false" enableDeleteByExample="false"></table>
+        <table tableName="field" domainObjectName="FieldDo"  enableUpdateByExample="false" enableDeleteByExample="false"></table>
+        <table tableName="i_associ" domainObjectName="InstanceAssociDo"  enableUpdateByExample="false" enableDeleteByExample="false"></table>
+        <table tableName="i_depend" domainObjectName="InstanceDependDo"  enableUpdateByExample="false" enableDeleteByExample="false"></table>
+        <table tableName="instance" domainObjectName="InstanceDo"  enableUpdateByExample="false" enableDeleteByExample="false"></table>
+        <table tableName="dictionary_setting" domainObjectName="DicSettingDo"  enableUpdateByExample="false" enableDeleteByExample="false"></table>
+        <table tableName="field_data_type" domainObjectName="FieldDataTypeDo"  enableUpdateByExample="false" enableDeleteByExample="false"></table>
+        <table tableName="field_type" domainObjectName="FieldTypeDo"  enableUpdateByExample="false" enableDeleteByExample="false"></table>
+
+    </context>    
+</generatorConfiguration>    

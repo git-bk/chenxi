@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>投资门户</title>
+    <meta name="keywords" content="keyword1,keyword2,keyword3">
+    <meta name="description" content="this is my page">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+    
+    ##--<link rel="stylesheet" type="text/css" href="./styles.css">--#
+    <link rel="stylesheet" type="text/css" href="/chance/resources/css/screen.css">
+    <link rel="stylesheet" type="text/css" href="/chance/resources/css/common.css">
+	<link rel="stylesheet" type="text/css" href="/chance/resources/css/pagination.css">
+    <script type="text/javascript" src="/chance/resources/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/chance/resources/js/layer/layer.js"></script>
+    <script type="text/javascript" src="/chance/resources/js/jquery.imgareaselect.js"></script>
+	<script type="text/javascript" src="/chance/resources/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/chance/resources/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/chance/resources/js/jquery.metadata.js"></script>
+	<script type="text/javascript" src="/chance/resources/js/validate-add-methods.js"></script>
+    <script type="text/javascript" src="/chance/resources/js/messages_zh.js"></script>
+	<script type="text/javascript" src="/chance/resources/js/jquery.tagator.js"></script>
+	<script type="text/javascript" src="/chance/resources/js/pagination.js"></script>
+	<script type="text/javascript" src="/chance/resources/js/chance_public.js"></script>
+      ##react相关
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+
+	##文件、图片上传控件
+	#if($uploader=='true')
+		<link href="/chance/resources/css/webuploader.css" rel="stylesheet" type="text/css" />
+    	<script type="text/javascript" src="/chance/resources/js/webuploader.js"></script>
+	#end
+
+	##地域控件
+	#if($address=='true')
+        <script type="text/javascript" src="/chance/resources/js/address.js"></script>
+	#end
+	##引入右导航栏js
+	#if($sideBar)
+		<script src="/chance/resources/js/pro_view/sideBarScroll.js"></script>
+	#end
+	##引入百度图表js
+	#if($echarts)
+		<script src="/chance/resources/js/echarts-all.js"></script>
+	#end
+	##引入浮点数计算js
+	#if($floatcount)
+		<script src="/chance/resources/js/floatCount.js"></script>
+	#end
+	##引入日期控件
+	#if($wdatePicker=='true')
+        <script type="text/javascript" src="/chance/resources/js/My97DatePicker/WdatePicker.js"></script>
+	#end
+  </head>
+  
+  <body>
+  	#if($header)
+    	#parse('/layout/header.vm' )
+    #end
+    
+    <div class="content-main content clear">
+		$screen_content
+	</div>
+	
+	#if($footer)
+		#parse('/layout/footer.vm' )
+	#end
+	
+	#if($!page)
+		<link rel="stylesheet" type="text/css" href="/chance/resources/js/$!{page}/index.css">
+		<script type="text/javascript" src="/chance/resources/js/$!{page}/index.js"></script>
+	#end
+	
+	<!--小弹窗提示-->
+    <div class="modal hade fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">    
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              <h4 class="modal-title" id="mySmallModalLabel">提示<a class="anchorjs-link" href="#mySmallModalLabel"><span class="anchorjs-icon"></span></a></h4>
+            </div>
+            <div class="modal-body">              
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary ac" data-dismiss="modal">知道了</button>          
+            </div>
+          </div>
+        </div>
+		
+      </div>
+	  <div class="modal hade fade delete-Project" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">    
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              <h4 class="modal-title" id="mySmallModalLabel">提示<a class="anchorjs-link" href="#mySmallModalLabel"><span class="anchorjs-icon"></span></a></h4>
+            </div>
+            <div class="modal-body">              
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary ac" id="ok-delete-project" data-dismiss="modal">确定</button>
+				<button type="button" class="btn btn-default ac" data-dismiss="modal">取消</button>
+            </div>
+          </div>
+        </div>
+		
+      </div>
+      <!--小弹窗提示,end-->
+  </body>
+</html>

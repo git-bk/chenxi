@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.driverdata.chenxi.dal.mapper.UserDoMapperExt" >
+
+  <resultMap id="RoleResultMap" type="com.driverdata.chenxi.dal.model.RoleDo" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="gmt_create" property="gmtCreate" jdbcType="TIMESTAMP" />
+    <result column="gmt_modified" property="gmtModified" jdbcType="TIMESTAMP" />
+    <result column="is_deleted" property="isDeleted" jdbcType="CHAR" />
+    <result column="creator" property="creator" jdbcType="VARCHAR" />
+    <result column="modifier" property="modifier" jdbcType="VARCHAR" />
+  </resultMap>
+  
+  <sql id="Role_Column_List" >
+    r.id, r.name, r.gmt_create, r.gmt_modified, r.is_deleted, r.creator, r.modifier
+  </sql>
+  
+  <select id="selectRolesByAccount" resultMap="RoleResultMap" >
+    select
+    <include refid="Role_Column_List" />
+    from user u inner join user_role ur on u.id = ur.user_id and ur.is_deleted = 'n' and u.is_deleted = 'n'
+    inner join role r on ur.role_id = r.id and r.is_deleted = 'n' 
+     where u.account = #{account,jdbcType=VARCHAR}
+  </select>
+  
+  <resultMap type="com.driverdata.chenxi.dal.model.ProjectDo" id="findProjectsByUserId">
+		<id column="id" property="id" />
+		<result column="name" property="name" />
+		<result column="status" property="status"/>
+		<result column="job" property="job" />
+		<association property="creator" column="creator" />
+	</resultMap>
+	
+	<select id="findProjectsByUserId" resultMap="findProjectsByUserId"
+		parameterType="java.lang.Integer">
+		select p.id,p.name,p.job,p.status from project as p left join user as u on
+		p.creator=u.id
+		where u.id=#{id}
+	</select>
+	
+	<update id="updateByPrimaryKeySelectiveExt" parameterType="com.driverdata.chenxi.dal.model.UserDo">
+    update user
+    <set>
+      <if test="gmtCreate != null">
+        gmt_create = #{gmtCreate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtModified != null">
+        gmt_modified = #{gmtModified,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtModified == null">
+        GMT_MODIFIED = current_timestamp,
+      </if>
+      <if test="type != null">
+        type = #{type,jdbcType=CHAR},
+      </if>
+      <if test="account != null">
+        account = #{account,jdbcType=VARCHAR},
+      </if>
+      <if test="weixin != null">
+        weixin = #{weixin,jdbcType=VARCHAR},
+      </if>
+      <if test="weibo != null">
+        weibo = #{weibo,jdbcType=VARCHAR},
+      </if>
+      <if test="intro != null">
+        intro = #{intro,jdbcType=VARCHAR},
+      </if>
+      <if test="realname != null">
+        realname = #{realname,jdbcType=VARCHAR},
+      </if>
+      <if test="signature != null">
+        signature = #{signature,jdbcType=VARCHAR},
+      </if>
+      <if test="isDeleted != null">
+        is_deleted = #{isDeleted,jdbcType=VARCHAR},
+      </if>
+      <if test="creator != null">
+        creator = #{creator,jdbcType=VARCHAR},
+      </if>
+      <if test="modifier != null">
+        modifier = #{modifier,jdbcType=VARCHAR},
+      </if>
+      <if test="modifier == null">
+        MODIFIER = 'system',
+      </if>
+      <if test="phone != null">
+        phone = #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+    and is_deleted = 'n' 
+  </update>
+  
+</mapper>

@@ -1,0 +1,24 @@
+#set($header=true)
+#set($footer=true)
+#set($page="ajaxLogin")
+<div id="inlineLogin" style="width:500px;">  
+    <form id="LoginForm" action="/chance/ajaxLoginProcess" method="post">  
+        <fieldset>  
+            <legend>Login Information</legend>  
+            <p>  
+                <label for="j_username">User:</label>  
+                <br />  
+                <input type="text" name="j_username" id="j_username"/>  
+            </p>  
+            <p>  
+                <label for="j_password">Password:</label>  
+                <br />  
+                <input type="password" name="j_password" id="j_password" />  
+            </p>  
+            <p>  
+                <a href="javascript:loginAjax()" id='btn_login' class='rndbutton'><span>Login</span></a>  
+            </p>  
+        </fieldset>  
+    </form>  
+</div>  
+

@@ -1,0 +1,40 @@
+#set($roles=$!request.getSession().getAttribute("userInfo").getRoles())
+<div class="header">
+  <div class="main">    
+    <div class="logo"><a href="/chance/index.htm"><img src="/chance/resources/images/ios_no.jpg" onclick="javascript:void(0)" alt="LOGO"></a></div>
+    <ul class="head-nav">
+     ## <li ><a #if($!home == "true") class="active" #end href="/chenxi/pro/pro_main.htm">首页</a></li>
+      ##<li ><a #if($!pro_create == "true") class="active" #end href="/chenxi/pro/pro_create.htm">项目基地</a></li>
+      ##--<li ><a #if($!organ == "true") class="active" #end href="/chenxi/organ/search.htm">找机构</a></li>
+         <li ><a #if($!pool == "true") class="active" #end href="/chance/lannister/pool.htm">Pool</a></li>
+	  #if($!roles && $!roles.size() > 0)
+		  #foreach($role in $!roles)
+		      #if($role.name == 'ROLE_APPROVAL')
+				  <li><a #if($!myproject == "true") class="active" #end href="/chance/pro/search.htm">项目审核</a></li>
+			  #end
+			   #if($role.name == 'ROLE_INVESTOR')
+				  <li><a #if($!myproject == "true") class="active" #end href="/chance/pro/search.htm">项目库</a></li>
+			  #end
+          #end
+	  #end
+    </ul>        
+    <ul class="head-user">
+	    #if($!request.getSession().getAttribute("userInfo").getAccount().length()>0)
+	      <li class="p-center">    	
+			#if($!request.getSession().getAttribute("userInfo").getHeadPortrait().getThumbnailUrl())
+				<a href="/chance/personal/personal.htm"><img src="$!request.getSession().getAttribute("userInfo").getHeadPortrait().getThumbnailUrl()" onclick="/chance/personal/personal.htm">个人中心</a>
+			#else
+				<a href="/chance/personal/personal.htm"><img src="/chance/resources/images/default_userlogo.jpg">个人中心</a>
+			#end
+	      </li>
+	      <li>
+	      	<!--<a id="login_out" href="/chenxi/j_spring_security_logout">退出 </a>-->
+	      	<a id="login_out" href="/chance/logout">退出 </a>
+	      </li>
+	    #else
+	      <li><a href="/chance/login/login.htm" id="login" onclick="javascript:void(0)">登录</a></li>
+	      <li><a href="/chance/login/register.htm" class="active" onclick="javascript:void(0)">注册</a></li>
+	    #end
+    </ul>   
+  </div>
+</div>  

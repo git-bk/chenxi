@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.driverdata.chenxi.dal.mapper.FileDoMapperExt" >
+<delete id="deleteInvalidFile">
+		delete from file where is_deleted='y' or associate_id
+		= null
+	</delete>
+
+	<select id="selectInvalidFile" resultMap="BaseResultMap">
+		select
+		<include refid="Base_Column_List" />
+		from file
+		where is_deleted = 'n' and isnull(associate_id) and ((to_days(now())-to_days(gmt_modified))>1)
+	</select>
+
+	<delete id="deleteByPrimaryKeyPhysically" parameterType="java.lang.Integer">
+		delete
+		from file where id = #{id,jdbcType=NUMERIC}
+	</delete>
+
+	<update id="deleteByProjectIdAndType" parameterType="com.driverdata.chenxi.dal.model.FileDo">
+		update file set is_deleted =
+		'y',modifier=#{modifier,jdbcType=VARCHAR},gmt_Modified=current_timestamp
+		where is_deleted = 'n' and associate_id = #{associateId,jdbcType=NUMERIC} and type = #{type,jdbcType=VARCHAR}
+	</update>
+</mapper>

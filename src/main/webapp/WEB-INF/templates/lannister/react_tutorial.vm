@@ -1,0 +1,50 @@
+#set($page = "lannister")
+
+<div class="pool-search">
+    <span>项目库</span>
+    <div class="input-group">
+        <input id="J_matchString" placeholder="请输入关键词查找项目" class="form-control search-input"  maxlength="20">
+        <div id="J_searchBtn"  class="searchBtn"><i class="iconfont">&#xe60a;</i></div>
+    </div>
+</div>
+<div class="table-wrap" id="J_table_wrap">
+    <table class="kuma-table kuma-table-hover">
+        <colgroup>
+            <col width="400">
+        </colgroup>
+        <thead>
+        <tr>
+            <th>项目</th>
+            <th>领域</th>
+            <th>阶段</th>
+            <th>
+                <div class="sort-region" id="J_money_sort">融资(万元)<i class="iconfont sort" style="cursor:pointer" sortType="asc" name="planFinancingAmount">&#xe607;</i></div>
+            </th>
+            <th>地域</th>
+            <th>
+                <div class="sort-region" id="J_money_sort">完整度<i class="iconfont sort" style="cursor:pointer" sortType="asc" name="integrity">&#xe607;</i></div>
+            </th>
+            <th>
+                <div class="sort-region" id="J_money_sort">关注<i class="iconfont sort" style="cursor:pointer" sortType="asc" name="follow">&#xe607;</i></div>
+            </th>
+            <th>
+                <div class="sort-region" id="J_money_sort">赞<i class="iconfont sort" style="cursor:pointer" sortType="asc" name="great">&#xe607;</i></div>
+            </th>
+        </tr>
+        </thead>
+        <tbody id="J_projectPool">
+        <tr>
+            <td colspan="8" align="center">数据加中……</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="ar quotes" id="pageEl_projectList">
+</div>
+<div class="blank60"></div>
+	
+
+
+
+
+

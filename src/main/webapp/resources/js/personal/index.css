@@ -1,0 +1,540 @@
+/* @import "../../../css/imgareaselect-animated.css"; */
+body {
+	word-break: break-all;
+}
+.form-horizontal{
+	background: url(../../images/persion_back.jpg) top center no-repeat;
+}
+.person-info {
+	 width: 300px;
+  	 margin: 0 auto;
+  	 padding-top: 40px;
+  	 text-align: center;
+}
+.person-info  .person-img {
+		margin: 0 auto;
+		position: relative;
+		width: 140px;
+		height: 140px;		
+		border: 3px solid #dadada;
+		border-radius: 50%;
+		overflow: hidden;
+}
+.person-info  .person-img  .edit:hover {
+			cursor: pointer;						
+}
+
+.person-info .person-img.edit:hover .person-tip {
+  margin-top: 0;
+}
+
+.person-info  .person-img  .person-tip {
+			  font-size: 14px;
+			  position: absolute;
+			  opacity: .6;
+			  filter: alpha(opacity=60);
+			  top: 0;
+			  left: 0;
+			  width: 100%;
+			  height: 100%;	
+			  margin-top: 140px;
+			  padding-top: 55px;					 
+			  text-align: center;			 
+			  color: rgb(255, 255, 255);
+			  -webkit-transition: margin-top;
+			  -webkit-transition-timing-function: ease-out;
+			  -webkit-transition-duration: 50ms;
+			  -moz-transition: margin-top;
+			  -moz-transition-timing-function: ease-out;
+			  -moz-transition-duration: 50ms;
+			  -o-transition: margin-top;
+			  -o-transition-timing-function: ease-out;
+			  -o-transition-duration: 50ms;			 
+			  background-color: rgb(0, 0, 0);
+}
+.person-info  .person-img  #J_person_img {
+			width: 140px;
+			height: 140px;
+}
+.person-info > .person-profile {		
+		overflow: hidden;
+		height:159px;
+}
+.person-info > .person-profile > .person-name {
+			font-size: 18px;
+			font-weight: 700;
+			letter-spacing: 6px;			
+			color: #3b66a0;
+			margin-top: 20px;
+			margin-bottom: 8px;
+			display: inline-block;
+  			margin-right: 10px;
+}
+.person-info > .person-profile > .person-txt {
+			font-size: 14px;
+			color: #333;
+			display: inline-block;						
+			padding-right: 10px;
+			vertical-align: middle;			
+  			line-height: 24px;
+  			text-align: center;
+}
+.person-info > .person-profile > .person-edit {	
+			text-align: center;
+			cursor: pointer;			
+			color: #666;
+			text-decoration: none;	
+			background: #f2f2f2;				
+}
+.person-info > .person-profile > .person-edit > .kuma-icon {
+				font-size: 24px;
+}
+.person-info > .person-profile > .person-edit > i {
+				font-size: 20px;
+}
+.person-uphold {
+	border-top: 1px solid #ccc;	
+	margin: 20px auto 0;
+	padding-top: 20px;
+	
+}
+.person-uphold > .per-save {
+		width: 118px;
+		font-size: 16px;
+		font-weight: 700;
+}
+.my-project{
+	width: 1180px;
+	margin: 50px auto 0;
+	overflow: hidden;
+}
+.my-project > .new-project {
+		width: 100%;		
+}
+.my-project > .new-project > .new-project-tip {
+			color: #3b66a0;
+			font-size: 24px;		
+			margin-right: 20px;			
+			vertical-align: middle;	
+			margin-left: 20px;	
+			text-align: center;
+			margin-bottom: 25px;
+			font-weight: 700;
+}
+.my-project > .new-project > .new-project-btn {			
+			color: #666;
+			height: 30px;	
+			background: #f2f2f2;					
+}
+.my-project > .new-project > .new-project-btn > .btn {
+				padding: 3px 12px;
+}
+.my-project > .new-project > .new-project-btn > .glyphicon {
+				color: rgb(153, 153, 153);
+}
+.my-project-list {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.my-project-list > .edit-project-btn {		
+		height: 30px;	
+		margin-top: 10px;
+		margin-bottom: 10px;
+		/*font-weight: bolder;*/	
+}
+.my-project-list > .edit-project-btn > .btn {
+			padding: 5px 12px;			
+}
+.my-project-list > .edit-project-btn > i {
+			font-size: 14px;
+}
+.my-project-list > .thumbnail {
+		margin-bottom: 10px;
+		border: 0;
+}
+.my-project-list > .caption {
+		text-align: left;
+		padding: 0 5px;
+}	
+.image-upload {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.image-upload > span {
+		color: #999;
+		font-size: 12px;
+}
+.image-preview-big {
+	width: 312px;
+	height: 312px;
+	line-height: 312px;
+	background: #ededed;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+.image-preview-small {
+  margin: 0 auto;
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border: 3px solid #dadada;
+  border-radius: 50%;
+  float: right;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-right: 15px;
+  cursor: default;
+}
+
+.image-preview-small-txt {	
+	clear: both;
+	text-align: center;
+	width: 140px;
+	float: right;
+	font-size: 12px;
+	margin-right: 13px;
+    margin-top: 10px;   
+}
+.wd3 {
+	width: 300px;
+}
+.wd4 {
+	width: 286px;
+}
+.wd5 {
+	width: 550px;
+}
+.mt30 {
+	margin-top: 30px;
+}
+.img-upload-wrap {	
+}
+.img-upload-wrap > span{		
+		display: inline-block;
+		margin-top: 20px;
+		margin-bottom: 15px;
+		height: 30px;
+		line-height: 30px;
+}
+.img-upload {
+	float: left;
+	z-index: 9999;
+	color: rgb(102, 102, 102);
+	display: inline-block;
+	margin-right: 10px;	
+	margin-top: 20px;
+	margin-bottom: 15px;
+	height: 30px;
+	line-height: 23px;
+	width: 100px;
+	padding-top: 3px;	
+	/* border: 1px dashed #999; */
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 12px;		
+	/*background: url(https://img.alicdn.com/tps/TB1VmVzIFXXXXauXXXXXXXXXXXX.jpg) 50% 50%;*/
+}
+.person-img-span {
+	line-height: 30px;
+	margin-left: 86px;		
+}
+.display {
+  line-height: 38px;
+  width: 290px;
+  font-size: 12px;
+}
+.link-hvn {
+  float: right;  
+  width: 80px;
+  text-decoration : none; 
+}
+.link-hvn > :hover, :active, :link, :visited {
+    text-decoration : none;    
+}
+.link-hvn > .kuma-icon {
+  	color: #f5ad48;
+}
+.p-logo {
+	width: 200px;
+	height: 150px;
+	line-height: 150px;
+	float: left;
+	margin-right: 8px;	
+	background: #fff;
+	text-align: center;
+}
+.p-logo > img {
+		width: 100%;
+		height: 100%;
+		vertical-align: top;
+}
+.p-content {
+	overflow: hidden;
+	position: relative;	
+	background: #fff;
+	text-align: left;
+	/*padding-left: 20px;*/
+	height: 150px;	
+}
+.p-content  .p-info{
+		float: left;
+		width: 100%;
+		padding-right: 20px;
+}
+.p-content  .p-info  .p-name {			
+							
+			font-size: 19px;
+			margin-top: 15px;
+}
+.p-content  .p-info  .p-name  a {
+		text-decoration: none;
+		color: #333;
+}
+.p-content  .p-info  .p-txt {
+			line-height: 22px;	
+			font-size: 14px;
+			color: #333;
+			margin-top: 4px;
+}
+
+.p-content  .p-edit {
+		float: right;
+		overflow: hidden;
+		text-align: center;
+		color:#666;
+		font-size: 12px;
+		margin-right: -15px;
+}
+.p-content  .p-edit  a {
+			color: #666;			
+			font-weigth: 700;
+			text-decoration: none;
+			/*margin-right: 10px;*/						
+}
+.p-content  .p-edit  .delete-project {
+			color: #666;
+			cursor: pointer;
+}
+
+.p-content  .p-edit  .submit-project {
+			color: #666;
+			cursor: pointer;
+			/*margin-left: 10px;*/
+}
+
+.p-content  .status {
+		color: #288df0;
+		display: inline-block;		
+		font-size: 12px;	
+		vertical-align: middle;
+		color: rgb(40, 141, 240);
+		float:left;
+}
+.my-project-list {
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.my-project-list > ul {
+		width: 1220px;
+}
+.my-project-list > ul > li {
+			float: left;
+			height: 152px;
+			width: 580px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			background: #fff;
+			border: 1px solid #e0e0e0;
+			/*margin-bottom: 20px;
+			border-bottom: 1px solid #ccc;*/	
+}
+.border-bottom {
+	margin-top: 20px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.invite {
+	color: #288df0;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	cursor: pointer;
+	display: inline-block;
+	
+}
+.invite > .iconfont {
+		margin-right: 2px;
+}
+/*==========閭�璇峰ソ鍙媠tar===========*/
+#myModal2 .modal-content {
+		
+  	padding: 20px 20px 20px;
+	text-align: center;
+}
+#myModal2 .modal-content > .modal-footer {
+		margin-top: 20px;
+  		text-align: center;
+  		border-top: 0;
+}
+.form-group.share {
+	margin-top: 30px;
+	line-height: 28px;
+	overflow: hidden;
+	/*.form-control {
+		height: 28px;
+		line-height: 28px;
+		padding: 0 12px;		
+	}*/
+}
+.form-group.share > label {
+		line-height: 28px;
+		font-size: 12px;
+		font-weight: normal;
+		text-align: right;
+}
+.form-group {
+}
+.form-group > label {
+		float: left;
+		width: 45%;
+		margin-right: 15px;
+}
+.form-group > .form-group-left {
+		margin-left: 46%;
+}
+.form-group > .form-group-wrap {
+		overflow: hidden;
+}
+/*==========閭�璇峰ソ鍙媏nd===========*/
+.preview-small-wrap {
+	overflow: hidden;
+	position: relative;
+}
+/*==========鍥炬爣鎸夐挳鍒嗕韩star===========*/
+.weibo-share {
+	float: left;
+	margin-right: 20px;
+	width: 62px;
+	height: 20px;
+	line-height: 20px;
+}
+.weixin-share {
+	overflow: hidden;
+	cursor: pointer;
+	height: 22px;
+	line-height: 22px;
+	text-align: left;
+	font-size: 12px;
+	margin-right: 15px;
+	color: #333;
+	text-decoration: none;
+}
+.weixin-share > img {
+		width: 22px;
+		height: 22px;
+		margin-right: 5px;
+}
+/*==========鍥炬爣鎸夐挳鍒嗕韩end===========*/
+.project-keys {	
+	max-width: 240px;
+	text-overflow: ellipsis;  
+	white-space: nowrap;				
+	overflow: hidden;
+	margin-left: -5px;
+	/*float: left;*/
+	margin-right: 20px;	
+	color: #999;	
+	float:left;
+	
+}
+.project-keys > .new-key {			
+		padding-left: 5px;
+		padding-right: 5px;
+}
+.project-status {
+	overflow: hidden;
+	margin-top: 10px;
+}
+.project-financing-infor {
+	position: absolute;
+	overflow: hidden;
+	bottom: 10px;
+}
+.project-financing-infor > ul {		
+}
+.project-financing-infor > ul > i {
+			display: inline-block;
+			width: 8px;
+			height: 8px; 
+			border-radius: 50%;
+			background: #3b66a0;
+			margin-right: 5px;
+}
+.project-financing-infor > ul > li {
+			float: left;			
+			padding-right: 20px;
+			
+}
+.project-financing-infor > ul > li > span {
+				color: #666;
+				font-size:13px;
+}
+.form-group label.col-xs-2 {
+  	float: left;
+    width: 16.66666667%!important;
+    margin-right: 0;
+}
+
+#photo-small {
+	cursor: default;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-left: 0px!important;
+}
+
+.p-logo img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.modal-content .modal-header {
+  font-size: 14px;
+  color: #666;
+  background-color: #f2f2f2;
+  font-weight: 700;
+}
+
+.modal-content .modal-body {
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.modal-content .modal-footer {
+  text-align: left;
+  border-top: 0;
+  padding: 20px;
+}
+
+#person-img-upload{
+	  height: 0px!important;
+	  margin-top: 10px;
+}
+
+#some_file_queue{
+	display:none;
+}
+
+.form-required{
+	color:red;
+	margin-right:3px;
+}
