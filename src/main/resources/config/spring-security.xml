@@ -26,7 +26,7 @@
              <http-basic />
     </http>  
      
-    <beans:bean id="chanceAuthenticationEntryPoint" class="com.driverdata.chenxi.security.ChanceAuthenticationEntryPoint">
+    <beans:bean id="chanceAuthenticationEntryPoint" class="com.bk.chenxi.security.ChanceAuthenticationEntryPoint">
         <beans:property name="loginFormUrl" value="/login/login.htm" />  <!-- 权限验证失败后跳转页面  -->
     </beans:bean>  
     
@@ -56,10 +56,10 @@
         <beans:property name="postOnly" value="false"/>  
     </beans:bean>  
       
-    <beans:bean id="ajaxFailureHandler" class="com.driverdata.chenxi.security.AjaxAuthenticationFailureHandler">
+    <beans:bean id="ajaxFailureHandler" class="com.bk.chenxi.security.AjaxAuthenticationFailureHandler">
     </beans:bean>  
       
-    <beans:bean id="ajaxSuccessHandler" class="com.driverdata.chenxi.security.AjaxAuthenticationSuccessHandler">
+    <beans:bean id="ajaxSuccessHandler" class="com.bk.chenxi.security.AjaxAuthenticationSuccessHandler">
     </beans:bean>  
  
     
@@ -70,7 +70,7 @@
     </authentication-manager>
     
     <beans:bean id="securityManager"  
-        class="com.driverdata.chenxi.security.SecurityManagerBoImpl">
+        class="com.bk.chenxi.security.SecurityManagerBoImpl">
     </beans:bean>
     
     

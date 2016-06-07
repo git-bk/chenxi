@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.driverdata.chenxi.dal.mapper.FileDoMapperExt" >
+<mapper namespace="com.bk.chenxi.dal.mapper.FileDoMapperExt" >
 <delete id="deleteInvalidFile">
 		delete from file where is_deleted='y' or associate_id
 		= null
@@ -18,7 +18,7 @@
 		from file where id = #{id,jdbcType=NUMERIC}
 	</delete>
 
-	<update id="deleteByProjectIdAndType" parameterType="com.driverdata.chenxi.dal.model.FileDo">
+	<update id="deleteByProjectIdAndType" parameterType="com.bk.chenxi.dal.model.FileDo">
 		update file set is_deleted =
 		'y',modifier=#{modifier,jdbcType=VARCHAR},gmt_Modified=current_timestamp
 		where is_deleted = 'n' and associate_id = #{associateId,jdbcType=NUMERIC} and type = #{type,jdbcType=VARCHAR}

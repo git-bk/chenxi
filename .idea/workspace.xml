@@ -1,10 +1,255 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01738df8-079b-4403-aaa1-e5a291346ca1" name="Default" comment="" />
+    <list default="true" id="01738df8-079b-4403-aaa1-e5a291346ca1" name="Default" comment="hhhhh">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/CxUserBoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/DictionaryDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/MessageDto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/chenxi_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/chenxi_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/MessageBo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/ShortMessageBoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/MessageDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/MessageDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/OrganizationDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/OrganizationDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProDeliveryLogDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProDeliveryLogDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectAuditLogDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectAuditLogDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectBusinessDataDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectBusinessDataDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectEventDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectEventDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectFinancingInfoDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectFinancingInfoDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectHasDictionaryDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectHasDictionaryDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectNewsDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectNewsDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectOperationDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectOperationDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectShareholdingStructureDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectShareholdingStructureDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectTeamMemberDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ProjectTeamMemberDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ValidateCodeDoMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ValidateCodeDoMapperExt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/ValidateCodeDo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/ValidateCodeDoExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/BusinessDataDto.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/DictionaryDto.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/EventDto.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/MessageDto.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/ValidateCodeDoMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/ValidateCodeDoMapperExt.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/DictionaryBo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/DictionaryBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/EntityBo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/EntityBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/FieldBo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/FieldBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/FieldTypeBo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/FieldTypeBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/FileBo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/FileBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/FileHandleService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/FileHandleService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/ImageBo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/ImageBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/InstanceAssociBo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/InstanceAssociBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/InstanceBo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/InstanceBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/InstanceDependBo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/InstanceDependBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/LannisterBo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/LannisterBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/UserBo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/UserBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/DictionaryBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/DictionaryBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/EntityBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/EntityBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/FieldBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/FieldBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/FieldTypeBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/FieldTypeBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/FileBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/FileBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/ImageBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/ImageBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/InstanceAssociBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/InstanceAssociBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/InstanceBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/InstanceBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/InstanceDependBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/InstanceDependBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/LannisterBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/LannisterBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/NasFileHandleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/NasFileHandleServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/impl/UserBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/UserBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/model/EntityInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/model/EntityInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/biz/model/InstanceInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/model/InstanceInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/DicSettingDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/DicSettingDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/DicSettingDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/DicSettingDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/DictionaryDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/DictionaryDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/DictionaryDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/DictionaryDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/EntityDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/EntityDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/EntityDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/EntityDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/FieldDataTypeDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FieldDataTypeDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/FieldDataTypeDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FieldDataTypeDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/FieldDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FieldDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/FieldDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FieldDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/FieldTypeDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FieldTypeDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/FieldTypeDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FieldTypeDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/FileDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FileDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/FileDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FileDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ImageDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/ImageDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/ImageDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/ImageDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/InstanceAssociDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceAssociDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/InstanceAssociDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceAssociDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/InstanceDependDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceDependDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/InstanceDependDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceDependDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/InstanceDependencyDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceDependencyDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/InstanceDependencyDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceDependencyDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/InstanceDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/InstanceDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/PermissionDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/PermissionDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/PermissionDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/PermissionDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/RoleDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/RoleDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/RoleDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/RoleDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/UserDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/UserDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/UserDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/UserDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/UserRoleDoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/UserRoleDoMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/UserRoleDoMapperExt.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/UserRoleDoMapperExt.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/DicSettingDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/DicSettingDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/DicSettingDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/DicSettingDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/DictionaryDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/DictionaryDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/DictionaryDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/DictionaryDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/EntityDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/EntityDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/EntityDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/EntityDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/FieldDataTypeDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldDataTypeDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/FieldDataTypeDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldDataTypeDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/FieldDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/FieldDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/FieldTypeDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldTypeDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/FieldTypeDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldTypeDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/FileDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FileDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/FileDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FileDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/ImageDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/ImageDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/ImageDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/ImageDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/InstanceAssociDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceAssociDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/InstanceAssociDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceAssociDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/InstanceDependDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceDependDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/InstanceDependDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceDependDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/InstanceDependencyDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceDependencyDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/InstanceDependencyDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceDependencyDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/InstanceDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/InstanceDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/MessageDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/MessageDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/MessageDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/MessageDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/PermissionDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/PermissionDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/PermissionDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/PermissionDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/RoleDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/RoleDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/RoleDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/RoleDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/UserDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/UserDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/UserDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/UserDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/UserRoleDo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/UserRoleDo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/model/UserRoleDoExample.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/UserRoleDoExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/plugin/GenMapperPlugin.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/plugin/GenMapperPlugin.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/plugin/Page.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/plugin/Page.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/searchModel/ProjectSearchModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/searchModel/ProjectSearchModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/DicSettingDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/DicSettingDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/EntityDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/EntityDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/FieldDataTypeDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/FieldDataTypeDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/FieldDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/FieldDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/FieldTypeDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/FieldTypeDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/FileDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/FileDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/ImageDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/ImageDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/InstanceAssociDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/InstanceAssociDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/InstanceDependDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/InstanceDependDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/InstanceDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/InstanceDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dto/UserDto.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dto/UserDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/enums/DictionaryType.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/enums/DictionaryType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/enums/FieldTypeEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/enums/FieldTypeEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/enums/FileType.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/enums/FileType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/enums/MessageType.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/enums/MessageType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/enums/OperationType.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/enums/OperationType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/enums/RoleType.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/enums/RoleType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/enums/YesOrNo.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/enums/YesOrNo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/exception/ChanceValidateException.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/exception/ChanceValidateException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/model/ChancePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/model/ChancePage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/model/FileUploadModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/model/FileUploadModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/model/KeyValue.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/model/KeyValue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/model/ResultModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/model/ResultModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/model/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/model/VelocityToolbox20View.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/model/VelocityToolbox20View.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/security/AjaxAuthenticationFailureHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/security/AjaxAuthenticationFailureHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/security/AjaxAuthenticationSuccessHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/security/AjaxAuthenticationSuccessHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/security/ChanceAuthenticationEntryPoint.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/security/ChanceAuthenticationEntryPoint.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/security/SecurityManagerBoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/security/SecurityManagerBoImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/test/Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/test/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/DateUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/DateUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/EncryptUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/EncryptUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/JSONUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/JSONUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/JsonTextEscape.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/JsonTextEscape.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/LannisterUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/LannisterUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/MD5Util.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/MD5Util.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/PathUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/PathUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/ShortMessageService.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/ShortMessageService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/StringUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/StringUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/Test.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/Test.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/image/AnimatedGifEncoder.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/image/AnimatedGifEncoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/image/GifDecoder.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/image/GifDecoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/image/ImageUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/image/ImageUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/image/LZWEncoder.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/image/LZWEncoder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/util/image/NeuQuant.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/util/image/NeuQuant.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/web/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/web/AdminController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/web/DictionaryController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/web/DictionaryController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/web/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/web/HomeController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/web/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/web/LoginController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/web/PersonalController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/web/PersonalController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/web/filter/UserInfoFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/web/filter/UserInfoFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/web/lannister/EntityController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/web/lannister/EntityController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/web/upload/FileController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/web/upload/FileController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/web/upload/ImageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/bk/chenxi/web/upload/ImageController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/chance_public.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/chenxi_public.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/DicSettingDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/DicSettingDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/DicSettingDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/DicSettingDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/DictionaryDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/DictionaryDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/DictionaryDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/DictionaryDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/EntityBoTest.java" afterPath="$PROJECT_DIR$/src/test/java/EntityBoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/EntityDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/EntityDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/EntityDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/EntityDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FieldBoTest.java" afterPath="$PROJECT_DIR$/src/test/java/FieldBoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldDataTypeDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldDataTypeDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldDataTypeDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldDataTypeDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldTypeDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldTypeDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldTypeDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/FieldTypeDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/FileDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/FileDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/FileDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/FileDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/ImageDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/ImageDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/ImageDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/ImageDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceAssociDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceAssociDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceAssociDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceAssociDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDependDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDependDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDependDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDependDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDependencyDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDependencyDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDependencyDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDependencyDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/InstanceDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/MessageDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/MessageDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/MessageDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/MessageDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/PermissionDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/PermissionDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/PermissionDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/PermissionDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/RoleDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/RoleDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/RoleDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/RoleDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/UserDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/UserDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/UserDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/UserDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/UserRoleDoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/UserRoleDoMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sqlmap/UserRoleDoMapperExt.xml" afterPath="$PROJECT_DIR$/src/main/resources/sqlmap/UserRoleDoMapperExt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chenxi.iml" afterPath="$PROJECT_DIR$/chenxi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/chenxi_biz.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/chenxi_biz.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring/chenxi_dal.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring/chenxi_dal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layout/default.vm" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layout/default.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/log4j.xml" afterPath="$PROJECT_DIR$/src/test/resources/log4j.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/spring-security.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/spring-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/toolbox.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/toolbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="chenxi.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +265,119 @@
   <component name="FavoritesManager">
     <favorites_list name="chenxi" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/web/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+              <folding>
+                <element signature="e#1936#1965#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/ajaxLogin/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-security.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring-security.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChanceAuthenticationEntryPoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/security/ChanceAuthenticationEntryPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="14.740741">
+              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19626169">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.vm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.9259257">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsernamePasswordAuthenticationFilter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.1.1.RELEASE/spring-security-web-3.1.1.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,9 +387,55 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/driverdata/chenxi/dal/mapper/UserDoMapperExt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/ValidateCodeDoMapperExt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/ShortMessageBoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceDoMapperExt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/UserBoImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/ValidateCodeDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/UserBo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/biz/impl/CxUserBoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/DictionaryDoMapperExt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/UserRoleDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldDataTypeDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/ImageDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldTypeDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/RoleDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/UserDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceDependDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/DicSettingDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FileDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/EntityDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/DictionaryDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceAssociDoExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/PermissionDoExample.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/spring/chenxi_dal.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/sqlmap/UserDoMapperExt.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/spring/chenxi_biz.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layout/default.vm" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -46,10 +450,6 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="chenxi Maven Webapp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -85,6 +485,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -106,8 +508,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,8 +532,24 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="900" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -326,6 +742,28 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -369,6 +807,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -377,6 +821,82 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.65" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/chenxi/index.htm" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="chenxi:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/chenxi" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_chenxi" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52154" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chenxi:war" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -385,47 +905,546 @@
       <created>1464616842641</created>
       <option name="number" value="Default" />
       <updated>1464616842641</updated>
-      <workItem from="1465138967646" duration="453000" />
+      <workItem from="1465138967646" duration="8875000" />
+      <workItem from="1465148875373" duration="1282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="453000" />
+    <option name="totallyTimeSpent" value="10157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32901135" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5153971" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47415185" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29159936" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6337115" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.019448947" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47415185" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.019448947" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5153971" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993517" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29159936" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6337115" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hhhhh" />
+    <option name="LAST_COMMIT_MESSAGE" value="hhhhh" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/DictionaryDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/DictionaryDoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/EntityDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FieldDataTypeDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FieldDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FieldTypeDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/ImageDoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/FileDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/ImageDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceAssociDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceDependDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceDependencyDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/InstanceDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/PermissionDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/RoleDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/UserDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/mapper/UserRoleDoMapperExt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/UserRoleDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldDataTypeDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/ImageDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldTypeDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/RoleDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FieldDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/UserDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceDependDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1746#1747#0" expanded="true" />
+            <element signature="e#1802#1803#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+            <element signature="e#2605#2606#0" expanded="true" />
+            <element signature="e#2645#2646#0" expanded="true" />
+            <element signature="e#2870#2871#0" expanded="true" />
+            <element signature="e#2901#2902#0" expanded="true" />
+            <element signature="e#3138#3139#0" expanded="true" />
+            <element signature="e#3173#3174#0" expanded="true" />
+            <element signature="e#3404#3405#0" expanded="true" />
+            <element signature="e#3446#3447#0" expanded="true" />
+            <element signature="e#5043#5044#0" expanded="true" />
+            <element signature="e#5073#5074#0" expanded="true" />
+            <element signature="e#5292#5293#0" expanded="true" />
+            <element signature="e#5319#5320#0" expanded="true" />
+            <element signature="e#5563#5564#0" expanded="true" />
+            <element signature="e#5607#5608#0" expanded="true" />
+            <element signature="e#5835#5836#0" expanded="true" />
+            <element signature="e#5869#5870#0" expanded="true" />
+            <element signature="e#6101#6102#0" expanded="true" />
+            <element signature="e#6133#6134#0" expanded="true" />
+            <element signature="e#6355#6356#0" expanded="true" />
+            <element signature="e#6383#6384#0" expanded="true" />
+            <element signature="e#6831#6832#0" expanded="true" />
+            <element signature="e#6881#6882#0" expanded="true" />
+            <element signature="e#6932#6933#0" expanded="true" />
+            <element signature="e#6971#6972#0" expanded="true" />
+            <element signature="e#7019#7020#0" expanded="true" />
+            <element signature="e#7058#7059#0" expanded="true" />
+            <element signature="e#25487#25488#0" expanded="true" />
+            <element signature="e#25518#25519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/DicSettingDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/FileDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/EntityDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/PermissionDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6896552">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/InstanceAssociDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15280136">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/dal/model/DictionaryDoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15280136">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/toolbox.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3820034">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/chenxi_dal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sqlmap/UserDoMapperExt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2801358">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17157713">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring/chenxi_biz.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5459272">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/layout/default.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61085975">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/chenxi_public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8333333">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/web/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+          <folding>
+            <element signature="e#1936#1965#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/ajaxLogin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.1.1.RELEASE/spring-security-web-3.1.1.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.9259257">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/index.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bk/chenxi/security/ChanceAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="14.740741">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19626169">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="mybatis-generator:generate" />
+    <option value="compile" />
   </component>
 </project>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.driverdata.chenxi.dal.mapper.UserDoMapperExt" >
+<mapper namespace="com.bk.chenxi.dal.mapper.UserDoMapperExt" >
 
-  <resultMap id="RoleResultMap" type="com.driverdata.chenxi.dal.model.RoleDo" >
+  <resultMap id="RoleResultMap" type="com.bk.chenxi.dal.model.RoleDo" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="name" property="name" jdbcType="VARCHAR" />
     <result column="gmt_create" property="gmtCreate" jdbcType="TIMESTAMP" />
@@ -23,23 +23,8 @@
     inner join role r on ur.role_id = r.id and r.is_deleted = 'n' 
      where u.account = #{account,jdbcType=VARCHAR}
   </select>
-  
-  <resultMap type="com.driverdata.chenxi.dal.model.ProjectDo" id="findProjectsByUserId">
-		<id column="id" property="id" />
-		<result column="name" property="name" />
-		<result column="status" property="status"/>
-		<result column="job" property="job" />
-		<association property="creator" column="creator" />
-	</resultMap>
 	
-	<select id="findProjectsByUserId" resultMap="findProjectsByUserId"
-		parameterType="java.lang.Integer">
-		select p.id,p.name,p.job,p.status from project as p left join user as u on
-		p.creator=u.id
-		where u.id=#{id}
-	</select>
-	
-	<update id="updateByPrimaryKeySelectiveExt" parameterType="com.driverdata.chenxi.dal.model.UserDo">
+	<update id="updateByPrimaryKeySelectiveExt" parameterType="com.bk.chenxi.dal.model.UserDo">
     update user
     <set>
       <if test="gmtCreate != null">

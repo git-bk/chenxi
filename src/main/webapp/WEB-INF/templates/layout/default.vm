@@ -7,20 +7,20 @@
     <meta name="content-type" content="text/html; charset=UTF-8">
     
     ##--<link rel="stylesheet" type="text/css" href="./styles.css">--#
-    <link rel="stylesheet" type="text/css" href="/chance/resources/css/screen.css">
-    <link rel="stylesheet" type="text/css" href="/chance/resources/css/common.css">
-	<link rel="stylesheet" type="text/css" href="/chance/resources/css/pagination.css">
-    <script type="text/javascript" src="/chance/resources/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/chance/resources/js/layer/layer.js"></script>
-    <script type="text/javascript" src="/chance/resources/js/jquery.imgareaselect.js"></script>
-	<script type="text/javascript" src="/chance/resources/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/chance/resources/js/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="/chance/resources/js/jquery.metadata.js"></script>
-	<script type="text/javascript" src="/chance/resources/js/validate-add-methods.js"></script>
-    <script type="text/javascript" src="/chance/resources/js/messages_zh.js"></script>
-	<script type="text/javascript" src="/chance/resources/js/jquery.tagator.js"></script>
-	<script type="text/javascript" src="/chance/resources/js/pagination.js"></script>
-	<script type="text/javascript" src="/chance/resources/js/chance_public.js"></script>
+    <link rel="stylesheet" type="text/css" href="/chenxi/resources/css/screen.css">
+    <link rel="stylesheet" type="text/css" href="/chenxi/resources/css/common.css">
+	<link rel="stylesheet" type="text/css" href="/chenxi/resources/css/pagination.css">
+    <script type="text/javascript" src="/chenxi/resources/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/chenxi/resources/js/layer/layer.js"></script>
+    <script type="text/javascript" src="/chenxi/resources/js/jquery.imgareaselect.js"></script>
+	<script type="text/javascript" src="/chenxi/resources/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/chenxi/resources/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/chenxi/resources/js/jquery.metadata.js"></script>
+	<script type="text/javascript" src="/chenxi/resources/js/validate-add-methods.js"></script>
+    <script type="text/javascript" src="/chenxi/resources/js/messages_zh.js"></script>
+	<script type="text/javascript" src="/chenxi/resources/js/jquery.tagator.js"></script>
+	<script type="text/javascript" src="/chenxi/resources/js/pagination.js"></script>
+	<script type="text/javascript" src="/chenxi/resources/js/chenxi_public.js"></script>
       ##react相关
       <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
@@ -28,29 +28,29 @@
 
 	##文件、图片上传控件
 	#if($uploader=='true')
-		<link href="/chance/resources/css/webuploader.css" rel="stylesheet" type="text/css" />
-    	<script type="text/javascript" src="/chance/resources/js/webuploader.js"></script>
+		<link href="/chenxi/resources/css/webuploader.css" rel="stylesheet" type="text/css" />
+    	<script type="text/javascript" src="/chenxi/resources/js/webuploader.js"></script>
 	#end
 
 	##地域控件
 	#if($address=='true')
-        <script type="text/javascript" src="/chance/resources/js/address.js"></script>
+        <script type="text/javascript" src="/chenxi/resources/js/address.js"></script>
 	#end
 	##引入右导航栏js
 	#if($sideBar)
-		<script src="/chance/resources/js/pro_view/sideBarScroll.js"></script>
+		<script src="/chenxi/resources/js/pro_view/sideBarScroll.js"></script>
 	#end
 	##引入百度图表js
 	#if($echarts)
-		<script src="/chance/resources/js/echarts-all.js"></script>
+		<script src="/chenxi/resources/js/echarts-all.js"></script>
 	#end
 	##引入浮点数计算js
 	#if($floatcount)
-		<script src="/chance/resources/js/floatCount.js"></script>
+		<script src="/chenxi/resources/js/floatCount.js"></script>
 	#end
 	##引入日期控件
 	#if($wdatePicker=='true')
-        <script type="text/javascript" src="/chance/resources/js/My97DatePicker/WdatePicker.js"></script>
+        <script type="text/javascript" src="/chenxi/resources/js/My97DatePicker/WdatePicker.js"></script>
 	#end
   </head>
   
@@ -68,8 +68,8 @@
 	#end
 	
 	#if($!page)
-		<link rel="stylesheet" type="text/css" href="/chance/resources/js/$!{page}/index.css">
-		<script type="text/javascript" src="/chance/resources/js/$!{page}/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="/chenxi/resources/js/$!{page}/index.css">
+		<script type="text/javascript" src="/chenxi/resources/js/$!{page}/index.js"></script>
 	#end
 	
 	<!--小弹窗提示-->

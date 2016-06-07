@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.driverdata.chenxi.dal.mapper.DictionaryDoMapperExt" >
-  <select id="countTheSameTypeAndNameEntity" parameterType="com.driverdata.chenxi.dal.model.DictionaryDo" resultType="java.lang.Integer">
+<mapper namespace="com.bk.chenxi.dal.mapper.DictionaryDoMapperExt" >
+  <select id="countTheSameTypeAndNameEntity" parameterType="com.bk.chenxi.dal.model.DictionaryDo" resultType="java.lang.Integer">
   	  select count(*) from DICTIONARY where is_deleted = 'n' and ID != #{id,jdbcType=NUMERIC} 
   	  and VALUE = #{value,jdbcType=VARCHAR} and DIC_KEY = #{dicKey,jdbcType=VARCHAR}
   </select>

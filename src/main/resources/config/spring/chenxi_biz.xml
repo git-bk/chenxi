@@ -2,21 +2,20 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-	
 
-	<bean id="messageBo" class="com.driverdata.chenxi.biz.impl.ShortMessageBoImpl"/>
-	<bean id="userBo" class="com.driverdata.chenxi.biz.impl.UserBoImpl"/>
-	<bean id="dictionaryBo" class="com.driverdata.chenxi.biz.impl.DictionaryBoImpl"/>
-	<bean id="imageBo" class="com.driverdata.chenxi.biz.impl.ImageBoImpl"/>
-	<bean id="fileBo" class="com.driverdata.chenxi.biz.impl.FileBoImpl"/>
-	<bean id="fileHandleService" class="com.driverdata.chenxi.biz.impl.NasFileHandleServiceImpl"/>
-	<bean id="myFilter" class="com.driverdata.chenxi.web.filter.UserInfoFilter"/>
+	<bean id="userBo" class="com.bk.chenxi.biz.impl.UserBoImpl"/>
+	<bean id="dictionaryBo" class="com.bk.chenxi.biz.impl.DictionaryBoImpl"/>
+	<bean id="imageBo" class="com.bk.chenxi.biz.impl.ImageBoImpl"/>
+	<bean id="fileBo" class="com.bk.chenxi.biz.impl.FileBoImpl"/>
+	<bean id="fileHandleService" class="com.bk.chenxi.biz.impl.NasFileHandleServiceImpl"/>
+	<bean id="myFilter" class="com.bk.chenxi.web.filter.UserInfoFilter"/>
 
-	<bean id="entityBo" class="com.driverdata.chenxi.biz.impl.EntityBoImpl"/>
-	<bean id="fieldBo" class="com.driverdata.chenxi.biz.impl.FieldBoImpl"/>
-	<bean id="fieldTypeBo" class="com.driverdata.chenxi.biz.impl.FieldTypeBoImpl"/>
-	<bean id="lannisterBo" class="com.driverdata.chenxi.biz.impl.LannisterBoImpl"/>
-	<bean id="instanceBo" class="com.driverdata.chenxi.biz.impl.InstanceBoImpl"/>
-	<bean id="instanceAssociBo" class="com.driverdata.chenxi.biz.impl.InstanceAssociBoImpl"/>
-	<bean id="instanceDependBo" class="com.driverdata.chenxi.biz.impl.InstanceDependBoImpl"/>
+	<bean id="entityBo" class="com.bk.chenxi.biz.impl.EntityBoImpl"/>
+	<bean id="fieldBo" class="com.bk.chenxi.biz.impl.FieldBoImpl"/>
+	<bean id="fieldTypeBo" class="com.bk.chenxi.biz.impl.FieldTypeBoImpl"/>
+	<bean id="lannisterBo" class="com.bk.chenxi.biz.impl.LannisterBoImpl"/>
+	<bean id="instanceBo" class="com.bk.chenxi.biz.impl.InstanceBoImpl"/>
+	<bean id="instanceAssociBo" class="com.bk.chenxi.biz.impl.InstanceAssociBoImpl"/>
+	<bean id="instanceDependBo" class="com.bk.chenxi.biz.impl.InstanceDependBoImpl"/>
+
 </beans>

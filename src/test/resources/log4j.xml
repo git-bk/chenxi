@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.driverdata.chenxi">
+	<logger name="com.bk.chenxi">
 		<level value="info" />
 	</logger>
 	

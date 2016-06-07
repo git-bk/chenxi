@@ -1,10 +1,10 @@
-import com.driverdata.chenxi.biz.EntityBo;
-import com.driverdata.chenxi.biz.FieldBo;
-import com.driverdata.chenxi.dal.mapper.EntityDoMapperExt;
-import com.driverdata.chenxi.dal.mapper.FieldDoMapperExt;
-import com.driverdata.chenxi.dal.model.EntityDo;
-import com.driverdata.chenxi.dto.FieldDto;
-import com.driverdata.chenxi.enums.YesOrNo;
+import com.bk.chenxi.biz.EntityBo;
+import com.bk.chenxi.biz.FieldBo;
+import com.bk.chenxi.dal.mapper.EntityDoMapperExt;
+import com.bk.chenxi.dal.mapper.FieldDoMapperExt;
+import com.bk.chenxi.dal.model.EntityDo;
+import com.bk.chenxi.dto.FieldDto;
+import com.bk.chenxi.enums.YesOrNo;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

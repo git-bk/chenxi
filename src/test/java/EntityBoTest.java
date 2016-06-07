@@ -1,7 +1,7 @@
-import com.driverdata.chenxi.biz.EntityBo;
-import com.driverdata.chenxi.dal.mapper.EntityDoMapperExt;
-import com.driverdata.chenxi.dal.model.EntityDo;
-import com.driverdata.chenxi.dto.EntityDto;
+import com.bk.chenxi.biz.EntityBo;
+import com.bk.chenxi.dal.mapper.EntityDoMapperExt;
+import com.bk.chenxi.dal.model.EntityDo;
+import com.bk.chenxi.dto.EntityDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -10,7 +10,7 @@
     	<property name="suppressAllComments" value="true" />
 		<property name="useActualColumnNames" value="false" />
 		<!-- 配置插件 -->
-    	<plugin type="com.driverdata.chenxi.dal.plugin.GenMapperPlugin" />
+    	<plugin type="com.bk.chenxi.dal.plugin.GenMapperPlugin" />
     	<!-- 配置数据库连接 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://datadriver.mysql.rds.aliyuncs.com:3306/db_chance_dev" userId="db_chance_dev" password="db_chance_dev">    
         </jdbcConnection>    
@@ -18,7 +18,7 @@
             <property name="forceBigDecimals" value="false"/>    
         </javaTypeResolver>    
         <!-- 配置model生成位置 -->
-        <javaModelGenerator targetPackage="com.driverdata.chenxi.dal.model" targetProject="src/main/java">
+        <javaModelGenerator targetPackage="com.bk.chenxi.dal.model" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>    
             <property name="trimStrings" value="true"/>    
         </javaModelGenerator>    
@@ -27,7 +27,7 @@
             <property name="enableSubPackages" value="true"/>    
         </sqlMapGenerator>    
         <!-- 配置mapper接口生成位置 -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.driverdata.chenxi.dal.mapper" targetProject="src/main/java">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.bk.chenxi.dal.mapper" targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>    
         </javaClientGenerator>
 
@@ -42,8 +42,6 @@
         <table tableName="user" domainObjectName="UserDo"  enableUpdateByExample="false" enableDeleteByExample="false">
         </table>
         <table tableName="user_role" domainObjectName="UserRoleDo"  enableUpdateByExample="false" enableDeleteByExample="false">
-        </table>
-        <table tableName="validate_code" domainObjectName="ValidateCodeDo"  enableUpdateByExample="false" enableDeleteByExample="false">
         </table>
         <table tableName="dictionary" domainObjectName="DictionaryDo"  enableUpdateByExample="false" enableDeleteByExample="false">
         </table>

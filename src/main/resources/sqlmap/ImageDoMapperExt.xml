@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.driverdata.chenxi.dal.mapper.ImageDoMapperExt" >
-	<update id="deleteByAssociateIdAndType" parameterType="com.driverdata.chenxi.dal.model.ImageDo">
+<mapper namespace="com.bk.chenxi.dal.mapper.ImageDoMapperExt" >
+	<update id="deleteByAssociateIdAndType" parameterType="com.bk.chenxi.dal.model.ImageDo">
 		update image set is_deleted = 'y', gmt_modified=current_timestamp
 		where is_deleted = 'n'
 		and associate_id = #{associateId,jdbcType=NUMERIC} 
