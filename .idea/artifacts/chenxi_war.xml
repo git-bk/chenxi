@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="chenxi:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="chenxi.war">
-      <element id="artifact" artifact-name="chenxi:war exploded" />
-    </root>
-  </artifact>
-</component>
